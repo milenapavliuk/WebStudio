@@ -145,7 +145,7 @@ letter-spacing: 1.08px;
     margin-left: auto;
     margin-right: auto;
 }
-.item1{
+/* .item1{
 background-image: url("images/box1.jpg");
 width: 370px;
 height: 294px;
@@ -162,7 +162,7 @@ background-image: url("images/img\(1\).jpg");
 width: 370px;
 height: 294px;
 flex-shrink: 0;
-}
+} */
 .what-we-do-text{
 background-color: rgb(47 48 58 / 80%);
 width: 370px;
