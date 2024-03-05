@@ -22,8 +22,22 @@ line-height: normal;
 .team{
 background-color: var(--team-bg-color);
 }
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
 .footer{
 background-color: var(--footer-bg-color);
+}
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.space{
+    display: flex;
+    flex-grow: 1;
 }
 .header-icon{
 color: var(--header-icon-color);
@@ -32,6 +46,7 @@ font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
 text-decoration: none;
+margin-right: 93px;
 }
 .icon-next-color{
     color: var(--accent-color);
@@ -59,17 +74,35 @@ text-decoration: none;
 
 .header-list-item{
 display: inline-block;
+margin-right: 60px;
+}
+.contact-list:first-child{
+    margin: 30px;
+}
+.contact-list:first-child::before{
+    content: "";
+    background-image: url(./images/envelope.jpg);
+    background-size: 16px 12px;
+}
+.contact-list:first-child::before{
+    content: "";
+    background-image: url(./images/Vectorphone.jpg);
+    background-size: contain;
+    width: 16px;
+    height: 10px;
 }
 /* .header-item{
 display: inline-block;
 } */
 
 .gallery-banner{
+margin: 0 0;
 width: 1600px;
 height: 600px;
 flex-shrink: 0;
 background-image: url("images/Img(6).jpg"),
 url("images/ImgOverlay.jpg");
+background-size: cover;
 }
 .banner-text{
     color: var(--banner-text-color);
@@ -82,7 +115,6 @@ url("images/ImgOverlay.jpg");
 }
 .banner-button{
     color: var(--banner-text-color);
-    text-align: center;
     font-size: 16px;
     font-weight: 700;
     line-height: 30px;
@@ -93,6 +125,8 @@ url("images/ImgOverlay.jpg");
     border-radius: 4px;
     border-width: 0px;
     background-color: var(--accent-color);
+    display: block;
+    margin: auto;
 }
 .gallery-text{
     color: var(--titles-color);
@@ -125,8 +159,9 @@ font-weight: 700;
 letter-spacing: 1.08px;
 }
 .what-we-do-list{
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 /* .item1{
 background-image: url("images/box1.jpg");
@@ -296,23 +331,23 @@ display: inline-block;
 display: inline-block;
 margin-right: 30px;
 }
-/* .gallery-list{
-    padding-left: auto;
-    padding-right: auto;
+.gallery-list{
+    display: flex;
+    justify-content: center;
 }
-.what-we-do{
-    padding-left: auto;
-    padding-right: auto;
-} */
+.what-we-do-list{
+    display: flex;
+    justify-content: center;
+}
 .team{
     padding-top: 94px;
     padding-bottom: 94px;
 }
-/* .team-list{
-    padding-left: auto;
-    padding-right: auto;
+.team-list{ 
+    display: flex;
+    justify-content: center;
 }
-.customers{
-    padding-left: auto;
-    padding-right: auto;
-} */
+.customers-list{
+    display: flex;
+    justify-content: center;
+}
