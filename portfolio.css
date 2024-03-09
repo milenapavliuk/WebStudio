@@ -207,3 +207,9 @@ body{
 .menu-list:last-child{
     width: 127px;
 }
+.gallery-item{
+    height: 404px;
+    width: 370px;
+    display: flex;
+    flex-wrap: wrap;
+}
