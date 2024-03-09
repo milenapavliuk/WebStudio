@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>WebStudio Portfolio</title>
+    <title>WebStudio Portfolio Page</title>
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
@@ -12,22 +12,22 @@
 </head>
 <body>
     <div class="container">
-    <header class="header">
-        <a class="header-icon header-item" href="index.html"><span class="icon-next-color">Web</span>Studio</a>
-        <nav class="header-nav">
-            <ul class="header-list header-item">
-                <li class="header-list-item"><a class="header-link" href="./index.html">Studio</a></li>
-                <li class="header-list-item"><a class="header-link" href="./portfolio.html">Portfolio</a></li>
-                <li class="header-list-item"><a class="header-link" href="#">Contacts</a></li>
-            </ul>
-        </nav>
-            <ul class="contact-list header-item">
-                <li class="contact-item"><img class="contact-img" src="./images/envelope.jpg" alt="#">
-                <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="contact-item"><img class="contact-img" src="./images/Vectorphone.jpg" alt="#">
-                <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-    </header>
+        <header class="header">
+            <a class="header-icon header-item" href="index.html"><span class="icon-next-color">Web</span>Studio</a>
+            <nav class="header-nav">
+                <ul class="header-list header-item">
+                    <li class="header-list-item"><a class="header-link" href="./index.html">Studio</a></li>
+                    <li class="header-list-item"><a class="header-link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="header-list-item"><a class="header-link" href="#">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="space"></div>
+                <ul class="contact-list header-item">
+                    <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+        </header>
+        </div>
 <main class="main-menu">
     <section class="menu">
         <h1 hidden>menu</h1>
@@ -90,31 +90,32 @@
         </ul>
     </section>
 </main>
-<footer class="footer">
-    <div class="footer-icon-adress footer-item">
-    <a class="footer-icon" href="index.html"><span class="icon-next-color">Web</span>Studio</a>
-    <address class="footer-address">
-        Kyiv, 26 Lesi Ukrainky Ave<br>
-        <a class="address-item" href="mailto:info@devstudio.com">info@devstudio.com</a><br>
-        <a class="address-item" href="tel:+380961111111">+38 096 111 11 11</a>
-    </address>
+<div class="container">
+    <footer class="footer">
+        <div class="footer-icon-adress footer-item">
+        <a class="footer-icon" href="index.html"><span class="icon-next-color">Web</span>Studio</a>
+        <address class="footer-address">
+            Kyiv, 26 Lesi Ukrainky Ave<br>
+            <a class="address-item" href="mailto:info@devstudio.com">info@devstudio.com</a><br>
+            <a class="address-item" href="tel:+380961111111">+38 096 111 11 11</a>
+        </address>
+        </div>
+        <section class="footer-network footer-item">
+            <h4 class="network-title footer-title">join in</h4>
+            <ul class="footer-network-list">
+                <li class="footer-network-item"><img class="footer-network-img" src="./images/Ellipse(1)insta.png" alt="#"></li>
+                <li class="footer-network-item"><img class="footer-network-img" src="./images/EllipsePNGTwitter.png" alt="#"></li>
+                <li class="footer-network-item"><img class="footer-network-img" src="./images/Ellipse(2)f.png" alt="#"></li>
+                <li class="footer-network-item"><img class="footer-network-img" src="./images/Ellipse(3)in.png" alt="#"></li>
+            </ul>
+        </section>
+            <form class="footer-form footer-item">
+                <label class="form-title footer-title">Subscribe to the newsletter<br>
+                    <input class="form-input" type="email" id="email" required placeholder="E-mail">
+                </label>
+                <button class="form-button" type="button">Subscribe</button>
+            </form>
+    </footer>
     </div>
-    <section class="footer-network footer-item">
-        <h4 class="network-title footer-title">join in</h4>
-        <ul class="footer-network-list">
-            <li class="footer-network-item"><img class="footer-network-img" src="./images/Ellipse(1)insta.png" alt="#"></li>
-            <li class="footer-network-item"><img class="footer-network-img" src="./images/EllipsePNGTwitter.png" alt="#"></li>
-            <li class="footer-network-item"><img class="footer-network-img" src="./images/Ellipse(2)f.png" alt="#"></li>
-            <li class="footer-network-item"><img class="footer-network-img" src="./images/Ellipse(3)in.png" alt="#"></li>
-        </ul>
-    </section>
-        <form class="footer-form footer-item">
-            <label class="form-title footer-title">Subscribe to the newsletter<br>
-                <input class="form-input" type="email" id="email" required placeholder="E-mail">
-            </label>
-            <button class="form-button" type="button">Subscribe<img class="form-button-img" src="./images/iconsend.png" alt="#"></button>
-        </form>
-</footer>
-</div>
 </body>
 </html>
