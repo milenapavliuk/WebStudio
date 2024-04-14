@@ -241,8 +241,7 @@ flex-shrink: 0;
     display: inline-block;
     margin-right: 34px;
 }
-
-.customers-img{
+/* .customers-img{
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     padding-top: 16px;
@@ -259,7 +258,7 @@ flex-shrink: 0;
 }
 .customers-list{
     box-sizing: content-box;
-}
+} */
 .footer-icon{
 color: var(--footer-text-color);
 font-family: Raleway;
@@ -317,7 +316,6 @@ margin-right: 12px;
 .form-title{
 padding-bottom: 20px;
 }
-
 .form-button{
 width: 200px;
 height: 50px;
@@ -377,8 +375,6 @@ margin-right: 30px;
     display: flex;
     justify-content: center;
 }
-
-
 
 .customers-icon{
     fill: var(--icon-color);
