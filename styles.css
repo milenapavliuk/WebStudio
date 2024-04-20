@@ -290,7 +290,7 @@ font-weight: 700;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 }
-.footer-network-item{
+.network-item{
 display: inline-block;
 margin-right: 10px;
 }
@@ -298,10 +298,37 @@ margin-right: 10px;
     margin-left: 156px;
     margin-right: 93px;
 }
-.footer-network-list{
+.network-list{
     display: flex;
     flex-wrap: nowrap;
     padding: 0;
+}
+.team-network-list{
+    justify-content: center;
+}
+.network-link{
+    background-color: rgba(166, 161, 171, 0.5);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.network-img{
+    fill: #FFF;
+}
+.network-link:hover{
+    background-color: var(--accent-color);
+}
+.team-icon-link{
+    background-color: #FFF;
+}
+.team-icon-img{
+    fill: var(--icon-color);
+}
+.team-icon-link:hover .team-icon-img{
+    fill: #FFF;
 }
 .form-input{
 width: 358px;
