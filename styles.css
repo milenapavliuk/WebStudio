@@ -10,6 +10,9 @@
     --banner-text-color: #FFFFFF;
     --icon-color: #AFB1B8;
 }
+ul{
+    list-style: none;
+}
 body{
 box-sizing: border-box;
 font-family: Roboto;
@@ -97,6 +100,10 @@ margin-right: 60px;
     height: 10px;
     background-image: url(./images/Vectorphone.jpg);
     background-size: cover;
+}
+.contact-list{
+    display: flex;
+    gap: 30px;
 }
 /* .header-item{
 display: inline-block;
@@ -445,13 +452,49 @@ margin-right: 30px;
     overflow: hidden;
 }
 
-.modal {
+.modal{
     position: absolute;
     top: 50%;
     left: 50%;
+    padding: 40px;
+    width: 528px;
+    height: 581px;
     min-width: 400px;
     min-height: 300px;
     padding: 15px;
-    background-color: skyblue;
+    background-color: white;
     transform: translate(-50%, -50%);
+}
+.close-button-icon{
+    display: block;
+    fill: black;
+}
+.btn{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background-color: white;
+    padding: 0;
+    cursor: pointer;
+}
+.form-header{
+    margin-bottom: 12px;
+    font-size: 20px;
+    text-align: center;
+}
+.form-group{
+    position: relative;
+    margin: 0;
+}
+.form-group input{
+    margin-bottom: 10px;
+    height: 40px;
+    padding: 11px 0 11px 42px;
+}
+.input-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
