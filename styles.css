@@ -21,6 +21,10 @@ font-family: Roboto;
 font-style: normal;
 line-height: normal;
 }
+img{
+    display: block;
+    max-width: 100%;
+}
 .team{
 background-color: var(--team-bg-color);
 }
@@ -193,11 +197,11 @@ font-size: 36px;
 font-weight: 700;
 letter-spacing: 1.08px;
 }
-.what-we-do-list{
+/* .what-we-do-list{
     margin: 0 auto;
     display: flex;
     justify-content: center;
-}
+} */
 /* .item1{
 background-image: url("images/box1.jpg");
 width: 370px;
@@ -216,7 +220,7 @@ width: 370px;
 height: 294px;
 flex-shrink: 0;
 } */
-.what-we-do-text{
+/* .what-we-do-text{
 background-color: rgb(47 48 58 / 80%);
 width: 370px;
 height: 70px;
@@ -233,8 +237,34 @@ text-transform: uppercase;
 .what-we-do-item{
 display: inline-block;
 margin-right: 30px;
+} */
+.what-we-do-list{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
-
+.what-we-do-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(47 48 58 / 80%);
+    width: 370px;
+    height: 70px;
+    flex-shrink: 0;
+    color: var(--what-we-do-text-color);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    padding: 27px 0 27px 0;
+    margin: 0 auto;
+    }
+    .what-we-do-item{
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+    }
 .team-item{
 display: inline-block;
 margin-right: 30px;
@@ -411,10 +441,10 @@ margin-right: 30px;
     display: flex;
     justify-content: center;
 }
-.what-we-do-list{
+/* .what-we-do-list{
     display: flex;
     justify-content: center;
-}
+} */
 .blocks{
     padding: 94px 0px;
 }
@@ -422,10 +452,10 @@ margin-right: 30px;
     padding-top: 94px;
 }
 
-.team-list{ 
+/* .team-list{ 
     display: flex;
     justify-content: center;
-}
+} */
 .customers-list{
     display: flex;
     justify-content: center;
